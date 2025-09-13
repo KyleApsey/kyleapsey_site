@@ -1,6 +1,6 @@
 # Kyle Apsey – Vue 3 (Options API) App
 
-This is a legit Vue.js application using Vite, Vue 3 (Options API), Vue Router 4 (hash mode), and Swiper (ESM).
+This is a Vue.js application using Vite, Vue 3 (Options API), Vue Router 4 (hash mode), and Swiper (ESM).
 It reproduces the prototype you saw earlier but without any CDN scripts.
 
 ## Tech
@@ -38,21 +38,22 @@ npm run preview
   - Experience.vue
   - Contact.vue
 - public/ — static files copied to the server root at build time
+  - about-carousel/ — put About page carousel images here
 
 ## Using your own images
-Place images in the `public/` folder. Vite serves them from the site root. Reference them with an absolute path:
+Place images in the `public/` folder. Vite serves them from the site root. Recommended structure:
 
-- In templates:
-  ```vue
-  <img src="/knox.jpg" alt="Knox" />
-  ```
-- In JS data (e.g., About carousel):
+- About carousel images: place in `public/about-carousel/` and reference with absolute paths:
   ```js
   carousel: [
-    '/headshot-1.jpg',
-    '/headshot-2.jpg',
-    '/headshot-3.jpg'
+    '/about-carousel/headshot-1.jpg',
+    '/about-carousel/headshot-2.jpg',
+    '/about-carousel/headshot-3.jpg'
   ]
+  ```
+- Portfolio images (example):
+  ```vue
+  <img src="/portfolio/knox.jpg" alt="Knox" />
   ```
 
 Currently the app uses placeholder Picsum URLs. Replace them in:
