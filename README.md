@@ -41,26 +41,6 @@ npm run preview
 - public/ — static files copied to the server root at build time
   - about-carousel/ — put About page carousel images here
 
-## Using your own images
-Place images in the `public/` folder. Vite serves them from the site root. Recommended structure:
-
-- About carousel images: place in `public/about-carousel/` and reference with absolute paths:
-  ```js
-  carousel: [
-    '/about-carousel/headshot-1.jpg',
-    '/about-carousel/headshot-2.jpg',
-    '/about-carousel/headshot-3.jpg'
-  ]
-  ```
-- Portfolio images (example):
-  ```vue
-  <img src="/portfolio/knox.jpg" alt="Knox" />
-  ```
-
-Currently the app uses placeholder Picsum URLs. Replace them in:
-- src/pages/About.vue → `carousel: [...]`
-- src/pages/Portfolio.vue → `projects[*].image`
-
 ## Notes
 - Router uses hash history so it works on any static host without server rewrites.
 - Swiper CSS is imported inside the carousel component via ESM. No CDN scripts are used.
