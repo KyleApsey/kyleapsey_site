@@ -18,4 +18,4 @@ export default {
 };
 </script>
 
-<style src="./SiteHeader.css"></style>
+<style src="./SiteHeader.scss" lang="scss"></style>

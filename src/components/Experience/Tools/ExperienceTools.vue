@@ -14,4 +14,4 @@
 export default { name: 'ExperienceTools' };
 </script>
 
-<style src="./ExperienceTools.css"></style>
+<style src="./ExperienceTools.scss" lang="scss"></style>

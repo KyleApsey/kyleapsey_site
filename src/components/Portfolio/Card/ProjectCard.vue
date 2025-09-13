@@ -46,4 +46,4 @@ export default {
 };
 </script>
 
-<style src="./ProjectCard.css"></style>
+<style src="./ProjectCard.scss" lang="scss"></style>

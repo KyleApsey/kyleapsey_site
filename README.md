@@ -8,6 +8,7 @@ It reproduces the prototype you saw earlier but without any CDN scripts.
 - Vue Router 4 (hash history)
 - Swiper 10 (carousel)
 - Vite (dev server + build)
+- Sass (SCSS) for styles
 
 ## Prerequisites
 - Node.js 18+ (recommended)
@@ -27,8 +28,8 @@ npm run preview
 ```
 
 ## Project structure
-- index.html — Vite entry (mounts #app, links global styles)
-- styles.css — global styles (kept simple, no CSS modules)
+- index.html — Vite entry (mounts #app)
+- src/assets/styles.scss — global styles (Sass) imported by src/main.js
 - src/main.js — app bootstrap
 - src/App.vue — app shell (header/nav, router-view, footer)
 - src/router/index.js — routes (hash mode)
@@ -62,5 +63,5 @@ Currently the app uses placeholder Picsum URLs. Replace them in:
 
 ## Notes
 - Router uses hash history so it works on any static host without server rewrites.
-- Swiper CSS is imported inside About.vue (ESM). No CDN scripts are used.
-- Global styles remain in `styles.css` for simplicity.
+- Swiper CSS is imported inside the carousel component via ESM. No CDN scripts are used.
+- Global styles are authored in Sass at `src/assets/styles.scss` and imported in `src/main.js`.

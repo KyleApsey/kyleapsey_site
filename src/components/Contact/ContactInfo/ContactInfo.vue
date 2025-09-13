@@ -27,4 +27,4 @@
 export default { name: 'ContactInfo' };
 </script>
 
-<style src="./ContactInfo.css"></style>
+<style src="./ContactInfo.scss" lang="scss"></style>

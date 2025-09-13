@@ -26,4 +26,4 @@ export default {
 };
 </script>
 
-<!-- Styles remain in /styles.css; no component-scoped styles here for minimal migration. -->
+<!-- Global styles are in src/assets/styles.scss (imported in main.js). No component-scoped styles here. -->

@@ -72,4 +72,4 @@
 export default { name: 'ExperienceTimeline' };
 </script>
 
-<style src="./ExperienceTimeline.css"></style>
+<style src="./ExperienceTimeline.scss" lang="scss"></style>

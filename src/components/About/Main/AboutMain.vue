@@ -33,4 +33,4 @@ export default {
 };
 </script>
 
-<style src="./AboutMain.css"></style>
+<style src="./AboutMain.scss" lang="scss"></style>

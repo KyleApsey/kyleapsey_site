@@ -36,4 +36,4 @@ export default {
 };
 </script>
 
-<style src="./AboutAside.css"></style>
+<style src="./AboutAside.scss" lang="scss"></style>

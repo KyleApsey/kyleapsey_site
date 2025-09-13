@@ -41,4 +41,4 @@ export default {
 };
 </script>
 
-<style src="./AboutCarousel.css"></style>
+<style src="./AboutCarousel.scss" lang="scss"></style>

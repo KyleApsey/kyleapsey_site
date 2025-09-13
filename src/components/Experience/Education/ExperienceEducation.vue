@@ -22,4 +22,4 @@
 export default { name: 'ExperienceEducation' };
 </script>
 
-<style src="./ExperienceEducation.css"></style>
+<style src="./ExperienceEducation.scss" lang="scss"></style>

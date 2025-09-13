@@ -9,4 +9,4 @@
 export default { name: 'ExperienceIntro' };
 </script>
 
-<style src="./ExperienceIntro.css"></style>
+<style src="./ExperienceIntro.scss" lang="scss"></style>
