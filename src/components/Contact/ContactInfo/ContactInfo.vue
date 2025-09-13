@@ -7,9 +7,6 @@
           Email: <a href="mailto:kapseydev@gmail.com">kapseydev@gmail.com</a>
         </li>
         <li>
-          Phone: <a href="tel:+19295930338">(929) 593-0338</a>
-        </li>
-        <li>
           LinkedIn: <a href="https://www.linkedin.com/in/kyleapsey" target="_blank" rel="noopener noreferrer">linkedin.com/in/kyleapsey</a>
         </li>
       </ul>
@@ -18,7 +15,7 @@
 
     <div class="card" style="max-width:600px; margin-top:16px">
       <h3>Availability</h3>
-      <p>Open to discussing roles focused on accessibility, full‑stack development, and leading collaborative, user‑centered projects.</p>
+      <p>Not seeking any roles at this time, but always open to collaboration and discussion with other creative and interesting people.</p>
     </div>
   </div>
 </template>

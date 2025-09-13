@@ -1,2 +1,28 @@
-/* ProjectCard component-specific overrides (kept minimal). */
-/* Global project card styles are defined in /src/assets/styles.scss */
+/* ProjectCard specific layout adjustments */
+/* Uses global .project card styling from src/assets/styles.scss */
+
+.project {
+  /* children will map to grid areas */
+  .project-body { grid-area: body; }
+  .project-media { grid-area: media; }
+}
+
+/* Odd: body left, image right */
+.project.is-odd {
+  grid-template-areas: 'body media';
+}
+
+/* Even: image left, body right */
+.project.is-even {
+  grid-template-areas: 'media body';
+}
+
+/* Mobile: stack consistently body then media */
+@media (max-width: 900px) {
+  .project.is-odd,
+  .project.is-even {
+    grid-template-areas:
+      'body'
+      'media';
+  }
+}

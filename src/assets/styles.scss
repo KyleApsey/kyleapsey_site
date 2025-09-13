@@ -12,7 +12,7 @@ html, body { margin: 0; padding: 0; }
   --border: #e0e0e0;
 }
 body {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: 'Work Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
   color: var(--text);
   background: var(--bg);
   line-height: 1.6;
@@ -32,9 +32,9 @@ body {
   display: flex; align-items: center; justify-content: space-between;
   height: 64px;
 }
-.brand { font-weight: 800; color: var(--brand); text-decoration: none; }
+.brand { font-family: 'Work Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; font-weight: 800; color: var(--brand); text-decoration: none; }
 .nav { display: flex; gap: 24px; }
-.nav-link { color: #000; text-decoration: none; font-weight: 600; }
+.nav-link { font-family: 'Work Sans', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #000; text-decoration: none; font-weight: 600; }
 .nav-link.active { border-bottom: 3px solid #000; padding-bottom: 6px; }
 
 /* Footer */
@@ -42,10 +42,10 @@ body {
 
 /* Common */
 .page { padding: 28px 0 56px; }
-.page h1 { font-family: Newsreader, serif; font-size: 40px; margin: 16px 0 24px; }
-.page h2 { font-size: 28px; margin: 0 0 8px; }
-.page h3 { font-size: 20px; margin: 24px 0 8px; }
-.page h4 { font-size: 16px; margin: 16px 0 4px; color: #111; }
+.page h1 { font-family: 'Lora', Georgia, 'Times New Roman', serif; font-size: 40px; margin: 16px 0 24px; }
+.page h2 { font-family: 'Lora', Georgia, 'Times New Roman', serif; font-size: 28px; margin: 0 0 8px; }
+.page h3 { font-family: 'Lora', Georgia, 'Times New Roman', serif; font-size: 20px; margin: 24px 0 8px; }
+.page h4 { font-family: 'Lora', Georgia, 'Times New Roman', serif; font-size: 16px; margin: 16px 0 4px; color: #111; }
 .muted { color: var(--muted); font-weight: 500; }
 .bullets { padding-left: 18px; }
 

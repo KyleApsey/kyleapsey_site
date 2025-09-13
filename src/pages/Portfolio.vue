@@ -1,7 +1,7 @@
 <template>
   <section class="page">
     <h1>Projects of note</h1>
-    <ProjectCard v-for="proj in projects" :proj="proj" :key="proj.slug" />
+    <ProjectCard v-for="(proj, i) in projects" :proj="proj" :cardIndex="i" :key="proj.slug" />
   </section>
 </template>
 
