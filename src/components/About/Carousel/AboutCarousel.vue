@@ -15,7 +15,7 @@
 
 <script>
 import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, A11y, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -30,12 +30,18 @@ export default {
   },
   mounted() {
     this.swiper = new Swiper(this.$refs.swiperEl, {
-      modules: [Navigation, Pagination],
+      modules: [Autoplay, A11y, Navigation, Pagination],
       loop: true,
       spaceBetween: 16,
+      autoplay: {
+        delay: 5000,
+      },
       pagination: { el: '.swiper-pagination', clickable: true },
       navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
       autoHeight: true,
+      a11y: {
+        enabled: true,
+      },
     });
   }
 };

@@ -1,0 +1,19 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-areas:
+    'main aside'
+    'carousel carousel';
+  gap: 24px;
+}
+
+.about-main { grid-area: main; }
+.about-aside { grid-area: aside; }
+.about-carousel { grid-area: carousel; }
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'main' 'aside' 'carousel';
+  }
+}

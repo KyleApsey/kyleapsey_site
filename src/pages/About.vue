@@ -35,3 +35,5 @@ export default {
   }
 };
 </script>
+
+<style src="./About.scss" lang="scss"></style>

@@ -1,24 +1,29 @@
-/* ProjectCard specific layout adjustments */
-/* Uses global .project card styling from src/assets/styles.scss */
+/* ProjectCard base card styling and alternating grid */
 
 .project {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  background: var(--card);
+  padding: 18px;
+  margin: 18px 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+
   /* children will map to grid areas */
   .project-body { grid-area: body; }
   .project-media { grid-area: media; }
 }
 
 /* Odd: body left, image right */
-.project.is-odd {
-  grid-template-areas: 'body media';
-}
+.project.is-odd { grid-template-areas: 'body media'; }
 
 /* Even: image left, body right */
-.project.is-even {
-  grid-template-areas: 'media body';
-}
+.project.is-even { grid-template-areas: 'media body'; }
 
 /* Mobile: stack consistently body then media */
 @media (max-width: 900px) {
+  .project { grid-template-columns: 1fr; }
   .project.is-odd,
   .project.is-even {
     grid-template-areas:

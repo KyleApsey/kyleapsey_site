@@ -1,2 +1,5 @@
-/* AboutAside component-specific overrides (kept minimal). */
-/* Global layout and card styling remain in /src/assets/styles.scss */
+.about-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

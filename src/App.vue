@@ -8,7 +8,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <small>© {{ year }} Kyle Apsey — Prototype built with Vue 3 (Options API)</small>
+        <small>© {{ year }} Kyle Apsey</small>
       </div>
     </footer>
   </div>
