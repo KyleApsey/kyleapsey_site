@@ -36,12 +36,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  flex-direction: column;
+  height: auto;
+
+  @media (min-width: 600px) {
+    height: 64px;
+    flex-direction: row;
+  }
 }
 
 .nav {
   display: flex;
   gap: 24px;
+  padding-bottom: 14px;
+
+  @media (min-width: 600px) {
+    padding-bottom: 0;
+  }
 }
 
 .nav-link {
