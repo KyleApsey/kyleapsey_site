@@ -1,11 +1,11 @@
 # Kyle Apsey – Vue 3 (Options API) App
 
-This is a Vue.js application using Vite, Vue 3 (Options API), Vue Router 4 (hash mode), and Swiper (ESM).
+This is a Vue.js application using Vite, Vue 3 (Options API), Vue Router 4 (HTML5 history), and Swiper (ESM).
 It reproduces the prototype you saw earlier but without any CDN scripts.
 
 ## Tech
 - Vue 3 (Options API)
-- Vue Router 4 (hash history)
+- Vue Router 4 (HTML5 history)
 - Swiper 10 (carousel)
 - Vite (dev server + build)
 - Sass (SCSS) for styles
@@ -32,7 +32,7 @@ npm run preview
 - src/assets/styles.scss — global styles (Sass) imported by src/main.js
 - src/main.js — app bootstrap
 - src/App.vue — app shell (header/nav, router-view, footer)
-- src/router/index.js — routes (hash mode)
+- src/router/index.js — routes (HTML5 history)
 - src/pages/ — SFC pages using the Options API
   - About.vue — includes a Swiper carousel
   - Portfolio.vue
@@ -42,6 +42,13 @@ npm run preview
   - about-carousel/ — put About page carousel images here
 
 ## Notes
-- Router uses hash history so it works on any static host without server rewrites.
+- Router uses HTML5 history (clean URLs without #). In production you need a single-page app (SPA) rewrite so all routes serve index.html.
 - Swiper CSS is imported inside the carousel component via ESM. No CDN scripts are used.
 - Global styles are authored in Sass at `src/assets/styles.scss` and imported in `src/main.js`.
+
+
+## Deployment (HTML5 history)
+- Dev: no config needed; Vite handles history fallback.
+- Production: configure SPA rewrites so all routes serve index.html (clean URLs without #).
+  - Netlify: include public/_redirects with `/*  /index.html  200`.
+  - Vercel, Nginx, Apache, GitHub Pages: see DEPLOYMENT_NOTES.md for examples and caveats.
