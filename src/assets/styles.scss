@@ -37,7 +37,7 @@ body {
 /* Card & Badges */
 .card { background: var(--card); padding: 16px; border-radius: 10px; }
 .badges { display: flex; flex-wrap: wrap; gap: 8px; }
-.badge { display: inline-block; background: var(--badge-bg); border-radius: 20px; padding: 6px 12px; font-size: 13px; color: #333; }
+.badge { display: inline-block; border: 1px solid var(--badge-bg); border-radius: 20px; padding: 6px 12px; font-size: 13px; color: #333; }
 
 /* Contact form */
 .contact { display: grid; gap: 12px; max-width: 560px; }

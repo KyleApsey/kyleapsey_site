@@ -19,8 +19,8 @@
       <h3>What I value</h3>
       <ul class="bullets">
         <li>Accessibility by default: semantic HTML, keyboard flows, and thoughtful design.</li>
-        <li>Clear, collaborative process.</li>
-        <li>Pragmatism: the right tool for the job, measured against team skill & long-term maintenance.</li>
+        <li>Clear, collaborative process: tickets that makes sense, reviews that teach, deployments that are boring and regular.</li>
+        <li>Pragmatism: the right tool for the job, measured against team skill and long-term maintenance.</li>
       </ul>
     </div>
   </aside>

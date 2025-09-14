@@ -3,26 +3,30 @@
     <h1>Who I am</h1>
     <h3 class="eyebrow">A quick story</h3>
     <p>
-      With over eight years of experience in web and application development, I've dedicated my career to building and
-      optimizing digital experiences that prioritize engagement, web accessibility, and usability. My career has taken me
-      from Detroit to New York and back again, working with startups, coding bootcamps, and established agencies, where
-      I’ve been able to create meaningful, scalable web solutions and mentor upcoming developers.
+      Hello, I’m Kyle, a lead web developer who’s taken a not‑so‑linear path  through tech and life. I grew up around Detroit, early on I pursued a  career and training as a classical music, playing in orchestra, musical  theater ensembles, and in multiple rock bands.  Then on a whim, I moved  to Seoul, South Korea, where I spent more than 5 years living and  teaching English, all the while slowly learning and practicing software  and web development.
     </p>
     <p>
-      As a lead developer, I specialize in guiding projects end‑to‑end with a strong foundation in both front‑ and
-      back‑end development—focusing on quality, collaboration, and delivering measurable results. I’m particularly
-      passionate about web accessibility, ensuring that every project is inclusive and optimized for all users—a skill
-      that I believe is essential in today’s digital landscape.
+      In 2017, I decided to take my hobby up as a career.  I left Seoul and  returned to Detroit, where I participated in an intensive full-stack  developer bootcamp.  I got my first taste of the life as a software and  web developer at a small start-up marketing agency in Detroit.  I then  combined my teaching and web development skill to teach at the same  bootcamp that I received my first formal training in, while  simultaneously working at a slightly larger marketing agency in the  suburbs of Detroit.
     </p>
     <p>
-      My approach is grounded in adaptability and continuous learning—keeping up with evolving web technologies,
-      best practices, and the user‑centric goals that ultimately define success. I’m always looking for new challenges
-      that allow me to apply and expand my skills, connecting digital innovation with exceptional user experience.
+      In 2021, I made another big move, to New York  City, where I joined a premier marketing agency.  Where I worked with  high-end luxury retail and hospitality brands to build world-class web  sites and applications.
+    </p>
+    <p>
+      Those moves shaped how I build on the web: thoughtful, accessible, and  always tuned to real users and real constraints.  All of which  culminated in my current role as a lead web developer at Wayne State  University in Detroit, MI, where I'm also returning to obtain my degree  in Computer Science.
+    </p>
+    <p>
+      Day to day, I lead projects end-to-end, planning architecture, aligning teams, and  delivering inclusive and thoughtful experiences. I care a lot about  accessibility, maintainable code, and clear communication and processes. Whether it’s PHP/Laravel or Ruby on Rails in the back end, or Vue/Nuxt  or something custom on the front end, my goal is to ship work that’s  dependable and easy to evolve with the needs of users and the needs of  the team.
     </p>
 
     <h3>My strengths</h3>
     <p>
-      Adapting quickly, shipping dependable code, and building processes that scale for teams and long‑term maintenance.
+      Korea was where I learned to adapt quickly.  New language, new culture,  new classrooms, and that adaptability carried straight into software.   Where I use my diverse background to think beyond the traditional and  build for varied users targeting precise outcomes in SEO and usability.
+    </p>
+    <p>
+      In New York, I honed my craft on fast‑moving  agency work and high‑profile launches.  Learning how to craft not only  my code, but processes to ensure every deadline is met by everyone on my team and every client knows what to expect.
+    </p>
+    <p>
+      Back in Detroit, I’ve focused on building sustainable processes and  mentoring other developers while still staying close to the code.   Helping guide major architectural changes to maximize the impact of each leader of each school and college as well as outreach for prospective  students.
     </p>
   </div>
 </template>
